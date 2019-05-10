@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="112" y="80" width="1280" height="800" text="Browser&#xA;http://..." measuredWidth="1280" measuredHeight="800">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Chart" id="2" x="171" y="192" width="1161" measuredWidth="1161" measuredHeight="200" chartType="column"/>
+  <widgets xsi:type="model:ButtonBar" id="3" x="171" y="148" text="Monthly, Yearly" measuredWidth="164" measuredHeight="45" selection="0">
+    <font size="19px"/>
+    <items x="0" y="0" width="92" height="45" text="Monthly"/>
+    <items x="92" y="0" width="72" height="45" text="Yearly"/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="4" x="171" y="408" width="1161" height="313" text="Employees" measuredWidth="1161" measuredHeight="313">
+    <font size="19px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="7" x="270" y="497" width="203" height="200" text="Hans Muster" measuredWidth="203" measuredHeight="200">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="9" x="344" y="514" width="119" height="118" measuredWidth="119" measuredHeight="118" src="assets/images/avatar.png"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
